@@ -217,9 +217,17 @@ footer .social-icons a img {
         text-align: center;
     }
 
+    /* testimonial */
+
+    .testimonial-cards{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
     /* Galeria Responsiva */
     .gallery {
-        grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+        grid-template-columns: repeat(2, 1fr);
         gap: 15px;
     }
 
@@ -232,7 +240,7 @@ footer .social-icons a img {
         srcset: "mobile/image-stand-out-small.jpg";
     }
 
-    .background-section-1 {
+    .background-section-1 {`    
         background-image: url("mobile/image-graphic-design.jpg");
     }
 
